@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <!--Container-->
-<div class="container w-full md:max-w-3xl mx-auto pt-20">
+<div class="container w-full md:max-w-3xl mx-auto pt-20 mt-10">
   <div
     class="contents w-full px-4 md:px-6 text-xl text-gray-800 leading-normal"
     style="font-family: Georgia, serif"
@@ -16,7 +16,7 @@
   <div class="text">
       <!--タイトル-->
 
-      <div class="font-sans">
+      <div class="font-sans nm-flat-gray-200-lg rounded-lg w-full p-4 text-center">
           <!-- <span class="text-base md:text-sm text-teal-500 font-bold">&lt;</span>
           <a
             href="#"
@@ -60,10 +60,10 @@
 
         <!--Post Content-->
 
-        <p class="py-6">
+        <div class="py-8 appearance-none rounded-lg nm-inset-gray-200 leading-5 px-8 py-4 mt-0 flex-grow ">
           <!--本文取得-->
           <?php the_content(); ?>
-        </p>
+        </div>
 
       <!--Tags -->
       <div class="text-base md:text-sm text-gray-500 px-4 py-6">

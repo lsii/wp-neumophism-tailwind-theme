@@ -16,14 +16,14 @@
 </head>
 
 
-<body <?php body_class(); ?> class="bg-gray-100 font-sans leading-normal tracking-normal">
+<body class="bg-gray-200 font-sans leading-normal tracking-normal">
 
 
 <header>
-<div class="header-inner">
+<div class="header-inner bg-gray-200">
 
 
-<nav id="header" class="fixed w-full z-10 top-0">
+<nav id="header" class="fixed w-full z-10 top-0 pt-6">
     <div
     id="progress"
     class="h-1 z-20 top-0"

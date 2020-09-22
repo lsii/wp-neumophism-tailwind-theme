@@ -1,10 +1,10 @@
 
-<footer id="footer" class="footer bg-white border-t border-gray-400 shadow">
+<footer id="footer" class="footer bg-gray-200 border-t border-gray-400 shadow">
     <div class="footer-inner container max-w-4xl mx-auto flex py-8">
         <div class="w-full mx-auto flex flex-wrap">
             <div class="flex w-full md:w-1/2">
             <div class="px-8">
-                <h3 class="font-bold text-gray-900">About</h3>
+                <h5 class="font-bold text-gray-900">About</h5>
                 <p class="py-4 text-gray-600 text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse
@@ -21,7 +21,7 @@
 
             <div class="flex w-full md:w-1/2">
             <div class="px-8">
-                <h3 class="font-bold text-gray-900">Social</h3>
+                <h5 class="font-bold text-gray-900">Social</h5>
                 <ul class="list-reset items-center text-sm pt-3">
                 <li>
                     <a
@@ -76,14 +76,14 @@ progress.style.setProperty('--scroll', scroll + '%');
 scrollpos = window.scrollY;
 
 if (scrollpos > 10) {
-    header.classList.add('bg-white');
+    header.classList.add('bg-gray-200');
     header.classList.add('shadow');
     navcontent.classList.remove('bg-gray-100');
-    navcontent.classList.add('bg-white');
+    navcontent.classList.add('bg-gray-200');
 } else {
-    header.classList.remove('bg-white');
+    header.classList.remove('bg-gray-200');
     header.classList.remove('shadow');
-    navcontent.classList.remove('bg-white');
+    navcontent.classList.remove('bg-gray-200');
     navcontent.classList.add('bg-gray-100');
 }
 });

@@ -3,10 +3,10 @@
 
     <a href="<?php the_permalink(); ?>">
 
-    <div class="text">
+    <div class="text ">
       <!--タイトル-->
 
-      <div class="font-sans">
+      <div class="font-sans nm-flat-gray-200-lg rounded-lg   w-full  p-4 text-center">
           <!-- <span class="text-base md:text-sm text-teal-500 font-bold">&lt;</span>
           <a
             href="#"
@@ -50,12 +50,12 @@
 
         <!--Post Content-->
 
-        <p class="py-6">
+        <div class="py-8 appearance-none rounded-lg nm-inset-gray-200 leading-5 px-8 py-4 mt-0 flex-grow ">
 
             <!--抜粋-->
             <?php the_excerpt(); ?>
 
-        </p>
+        </div>
 
       <!--Tags -->
       <div class="text-base md:text-sm text-gray-500 px-4 py-6">
